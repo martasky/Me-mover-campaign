@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="108" height="108" viewBox="0 0 108 108">
+  <g id="balance_icon" transform="translate(-1008 -3795)">
+    <text id="Icon" transform="translate(1044 3857)" fill="#fff" font-size="20" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">Icon</tspan></text>
+    <circle id="Ellipse_4" data-name="Ellipse 4" cx="54" cy="54" r="54" transform="translate(1008 3795)" fill="#3e3e3e"/>
+    <g id="_009-heart" data-name="009-heart" transform="translate(1031.296 3815.971)">
+      <g id="Group_99" data-name="Group 99" transform="translate(-0.001 6.626)">
+        <g id="Group_98" data-name="Group 98">
+          <path id="Path_100" data-name="Path 100" d="M62.673,16.894A16.135,16.135,0,0,0,49.3,6.727a19.753,19.753,0,0,0-2-.1,19.436,19.436,0,0,0-15.282,7.428A19.436,19.436,0,0,0,16.738,6.626a19.742,19.742,0,0,0-2,.1A16.136,16.136,0,0,0,1.366,16.894,17.75,17.75,0,0,0,3.985,34.951L31.1,68a1.186,1.186,0,0,0,1.833,0L60.053,34.951A17.747,17.747,0,0,0,62.673,16.894ZM58.22,33.446l-26.2,31.929L5.819,33.446A15.379,15.379,0,0,1,3.561,17.8,13.8,13.8,0,0,1,14.985,9.086,17.4,17.4,0,0,1,16.739,9,17.1,17.1,0,0,1,31.031,16.73a1.185,1.185,0,0,0,1.979,0A17.1,17.1,0,0,1,49.055,9.086,13.8,13.8,0,0,1,60.479,17.8,15.382,15.382,0,0,1,58.22,33.446Z" transform="translate(0.001 -6.626)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
+        </g>
+      </g>
+      <g id="Group_101" data-name="Group 101" transform="translate(1.189 15.682)">
+        <g id="Group_100" data-name="Group 100" transform="translate(0 0)">
+          <path id="Path_101" data-name="Path 101" d="M67.457,56.409H43.585L41.228,39.654a1.186,1.186,0,0,0-2.343-.037L35.071,61.7,31.436,33.725a1.186,1.186,0,0,0-2.348-.03L25.554,56.3l-2.5-10.6a1.186,1.186,0,0,0-2.3-.03L17.924,56.408H4.609a1.186,1.186,0,0,0,0,2.371h14.23a1.185,1.185,0,0,0,1.147-.884l1.849-7.027,2.8,11.87a1.186,1.186,0,0,0,2.326-.089l3.189-20.4L33.73,69.775a1.186,1.186,0,0,0,1.151,1.033h.025a1.186,1.186,0,0,0,1.169-.983l3.86-22.346L41.381,57.76a1.185,1.185,0,0,0,1.174,1.02h24.9a1.186,1.186,0,0,0,0-2.371Z" transform="translate(-3.423 -32.692)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
+        </g>
+      </g>
+    </g>
+    <g id="Ellipse_36" data-name="Ellipse 36" transform="translate(1012 3798)" fill="none" stroke="#fff" stroke-width="3.5">
+      <circle cx="51.5" cy="51.5" r="51.5" stroke="none"/>
+      <circle cx="51.5" cy="51.5" r="49.75" fill="none"/>
+    </g>
+  </g>
+</svg>
