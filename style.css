@@ -368,11 +368,13 @@ button, .secondary_button, #view_all {
 }
 section {
   padding: 4rem;
+  
 }
 .memover_benefits {
   display: grid;
   grid-template-columns: 55% 45%;
   background: var(--main-bg-color);
+  
 }
 .memover_benefits img {
   grid-column: 1/2;
@@ -450,6 +452,8 @@ section {
 }
 #reviews h2{
   grid-column: 1 / -1;
+  text-align: center;
+  font-size: 3rem;
 }
 .btn_wrapper {
   grid-column: 1 / -1;
@@ -457,5 +461,38 @@ section {
 #review_wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-column: 1 / -1;
+  grid-column-gap: 1.5rem;
+  
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+.review {
+  padding: 3rem 2rem;
+}
+.stars img {
+  width: 40%;
+}
+.review:last-child {
+  margin-bottom: 1rem;
+}
+#communities {
+  display: grid;
+  grid-template-columns: 45% 55%;
+  background-color: var(--secondary-bg-color);
+}
+#some {
+  align-self: center;
+  justify-self: center;
+}
+#socialmedia_icons {
+  
+  margin-left: 2rem;
+  margin-right: 2rem;
+  justify-content: center;
+}
+#socialmedia_icons img {
+  
+ margin: 0;
 }
 }
