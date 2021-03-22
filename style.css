@@ -69,7 +69,7 @@ button {
   font-size: 1.375rem;
   margin: 0 auto;
   display: block;
-  width: 100%;
+  width: 320px;
   margin-bottom: 1rem;
   margin-top: 1.75rem;
 }
@@ -86,7 +86,7 @@ button {
   cursor: pointer;
   text-transform: uppercase;
   display: block;
-  width: 100%;
+  width: 320px;
 }
 section {
   padding: 2rem 1.5rem;
@@ -259,7 +259,7 @@ section {
 }
 
 #view_all {
-  padding: 1.5rem 3rem;
+  padding: 1.5rem 0;
   text-align: center;
   text-decoration: none;
   border: 3px solid var(--main-bg-color);
@@ -272,7 +272,7 @@ section {
   font-size: 1.5rem;
   margin: 0 auto;
   display: block;
-  width: 100%;
+  font-size: 1.375rem;
   margin-bottom: 1rem;
   margin-top: 1rem;
 }
@@ -313,7 +313,7 @@ padding: 0.4rem;
 
 @media only screen and (min-width: 768px) {
 button, .secondary_button, #view_all {
-  width: 50%;
+  
 }
 #socialmedia_icons img, #socialmedia_icons img:first-child, #socialmedia_icons img:last-child {
  width: 15%;
@@ -340,18 +340,21 @@ button, .secondary_button, #view_all {
 #main_buttons {
   display: flex;
   flex-direction: row;
-  width: 60%;
-  margin: 0 auto;
+  width: 100%;
+  justify-content: center;
+  
   
 }
 #watch_video, #try_memover {
   margin: 0;
-  width: 100%;
+  
  
 }
+#try_memover {
+  
+}
 .btn_container {
-  width: 100%;
- padding: 1rem;
+  padding-right: 1.5rem;
 }
 #arrow_icon {
   display: block;
@@ -409,9 +412,7 @@ section {
   padding-top: 0;
   margin-top: 2.5rem ;
 }
-#shop_btn, #view_all, #more_about {
-  width: 30%;
-}
+
 #stories {
   display: grid;
   grid-template-columns: 50% 50%;
@@ -452,5 +453,9 @@ section {
 }
 .btn_wrapper {
   grid-column: 1 / -1;
+}
+#review_wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 }
