@@ -164,28 +164,29 @@
         <section id="form-fill">
         <h5>Try Me-Mover</h5>
         <h6>Fill out this form if you want to try a Me-over and we will contact you later.</h6>
+        <form name="Me-Mover-form" method="POST" data-netify="true">
         <p>
-          <label for="input__text">Name *</label><br>
-          <input id="input__text" type="text" placeholder="Enter your first and last name"/>
+          <label for="input__text">Name *</label>
+          <input id="input__text" type="text" required placeholder="Enter your first and last name"/>
         </p>
         <p>
-          <label for="input__emailaddress">Email Address *</label><br>
+          <label for="input__emailaddress">Email Address *</label>
           <input
             id="input__emailaddress"
-            type="email"
+            type="email" required
             placeholder="Enter your email (e.g. abcd@efg.com)"
           />
         </p>
         <p>
-          <label for="input__phone">Phone Number</label><br>
+          <label for="input__phone">Phone Number</label>
           <input
             id="input__phone"
-            type="tel"
+            type="tel" 
             placeholder="Enter your phone number (e.g. 42424242)"
           />
         </p>
           <p>
-            <label for="select-hotspot">Hotspot *</label><br>
+            <label for="select-hotspot">Hotspot *</label>
             <select id="select">
               <optgroup label="Option Group">
                 <option>Copenhagen</option>
@@ -195,7 +196,7 @@
             </select>
           </p>
           <p>
-            <label for="select-number">Number of Me-Movers *</label><br>
+            <label for="select-number">Number of Me-Movers *</label>
             <select id="select">
               <optgroup label="Option Group">
                 <option>1</option>
@@ -207,15 +208,15 @@
             </select>
           </p>
           <p>
-            <label for="idd">Date *</label><br>
-            <input type="date" id="idd" value="1970-01-01" />
+            <label for="idd">Date *</label>
+            <input type="date" required id="idd" value="2021-01-03" />
           </p>
           <p>
-            <label for="idd">Time *</label><br>
-            <input type="time" id="idd" value="00:00" />
+            <label for="idd">Time *</label>
+            <input type="time" required id="idd" value="00:00" />
           </p>
           <p>
-          <label for="textarea">ADDITIONAL INFORMATION</label><br>
+          <label for="textarea">ADDITIONAL INFORMATION</label>
             <textarea
               id="textarea"
               rows="8"
@@ -223,7 +224,10 @@
               placeholder="Enter to comment additional information on special needs or anything you want to share with us."
             ></textarea>
           </p>
-       
+          <div class="inputfeild">
+            <input type="submit" value="submit" class="submit_btn">
+          </div>
+        </form>
           </section>
         </article>
 
