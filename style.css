@@ -296,3 +296,44 @@ padding: 0.4rem;
   text-align: center;
   padding-top: 1rem;
 }
+
+/* *******form section******* */
+#form h5{
+  color: var(--secondary-text-color);
+  font-family: var(--primary-font); 
+  font-size: 3em;
+  font-weight: bold;
+} 
+
+#form h6{
+  color: var(--secondary-text-color);
+  font-family: var(--primary-font); 
+  font-size: 1em;
+  font-weight: 100;
+}
+
+#form label{
+  color: var(--secondary-text-color);
+  columns: 1fr;
+  text-transform: uppercase;
+  font-size: 1rem;
+  /* line-height: 1.75rem; */
+}
+
+#form-fill {
+  display:flex;
+  flex-direction: column;
+  /* align-items: center; 
+  justify-content: center; */
+  background-color: #EBEBEB;
+}
+
+#form input{
+  width: 22rem;
+  height: 3rem;
+}
+
+#select {
+  width: 22rem;
+  height: 3rem;
+}
