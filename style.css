@@ -165,7 +165,7 @@ section {
   padding-bottom: 1rem;
 }
 #shop_bg {
-  background-image: url(assets/memovers_bgdark.png);
+  background-image: url(assets/memovers_bgdark.webp);
   height: 550px;
 
   background-position: 40% bottom;
@@ -182,7 +182,7 @@ section {
   padding: 1rem 0;
 }
 #rent_bg {
-  background-image: url(assets/peopleonmemovers_bgdark.png);
+  background-image: url(assets/peopleonmemovers_bgdark.webp);
   background-position: 46% 42%;
 
   height: 550px;
@@ -503,7 +503,7 @@ section {
 }
 
 /* *******form section******* */
-#form section{
+#form section {
   padding: 1.5rem 0;
   text-align: center;
   border: 3px solid var(--color-4);
@@ -519,7 +519,7 @@ section {
   font-size: 3em;
   font-weight: bold;
   margin-bottom: auto;
-  text-align: left; 
+  text-align: left;
   margin-left: 15%;
 }
 
@@ -529,7 +529,7 @@ section {
   font-size: 1em;
   font-weight: 100;
   max-width: 70%;
-  text-align: left; 
+  text-align: left;
   margin-left: 15%;
 }
 
@@ -538,7 +538,6 @@ section {
   text-transform: uppercase;
   font-size: 1rem;
   display: block;
-
 }
 
 #textarea {
@@ -562,10 +561,10 @@ section {
   font-family: var(--primary-font);
 }
 
-.submit_btn{
-background-color: #35436a;
-cursor: pointer; 
-border: none;
+.submit_btn {
+  background-color: #35436a;
+  cursor: pointer;
+  border: none;
   text-align: center;
   color: var(--main-text-color);
   font-family: var(--primary-font);
