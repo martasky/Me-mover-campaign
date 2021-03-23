@@ -312,6 +312,10 @@ section {
     position: absolute;
     z-index: -1;
   }
+  #form h6,
+  #form h5 {
+    margin-left: 0;
+  }
 }
 
 @media only screen and (min-width: 992px) {
@@ -503,9 +507,8 @@ section {
 }
 
 /* *******form section******* */
-#form section{
+#form section {
   padding: 1.5rem 0;
-  text-align: center;
   border: 3px solid var(--color-4);
   font-family: var(--primary-font);
   font-weight: bold;
@@ -519,7 +522,7 @@ section {
   font-size: 3em;
   font-weight: bold;
   margin-bottom: auto;
-  text-align: left; 
+  text-align: left;
   margin-left: 15%;
 }
 
@@ -529,7 +532,7 @@ section {
   font-size: 1em;
   font-weight: 100;
   max-width: 70%;
-  text-align: left; 
+  text-align: left;
   margin-left: 15%;
 }
 
@@ -538,7 +541,6 @@ section {
   text-transform: uppercase;
   font-size: 1rem;
   display: block;
-
 }
 
 #textarea {
@@ -562,10 +564,10 @@ section {
   font-family: var(--primary-font);
 }
 
-.submit_btn{
-background-color: #35436a;
-cursor: pointer; 
-border: none;
+.submit_btn {
+  background-color: #35436a;
+  cursor: pointer;
+  border: none;
   text-align: center;
   color: var(--main-text-color);
   font-family: var(--primary-font);
