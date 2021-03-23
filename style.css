@@ -548,6 +548,8 @@ section {
 
 #form-fill {
   background-color: #ebebeb;
+  /* width: 90%;  */
+  margin: auto;
 }
 
 #form input {
