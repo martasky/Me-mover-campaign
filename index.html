@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Me-mover campaign">
+    <meta name="description" content="Me-mover campaign" />
     <link rel="stylesheet" href="style.css" />
     <title>Your goal is our mission</title>
   </head>
@@ -31,7 +31,9 @@
           </p>
           <div id="main_buttons">
             <div class="btn_container">
-              <a href="https://www.youtube.com/watch?v=9K3SB--FX4A"
+              <a
+                href="https://www.youtube.com/watch?v=9K3SB--FX4A"
+                target="_blank"
                 ><button id="watch_video">Watch video</button></a
               >
             </div>
@@ -66,7 +68,7 @@
           </p>
           <p>Me-Mover also helps build muscle and strengthen joints.</p>
         </section>
-        <img loading=lazy src="assets/memoverfeet.webp" alt="memoverfeet" />
+        <img loading="lazy" src="assets/memoverfeet.webp" alt="memoverfeet" />
       </article>
       <article class="memover_benefits2">
         <section>
@@ -85,7 +87,11 @@
             be shared to make it even more interesting.
           </p>
         </section>
-        <img loading=lazy src="assets/twomenonmemover.webp" alt="twomenonmemover" />
+        <img
+          loading="lazy"
+          src="assets/twomenonmemover.webp"
+          alt="twomenonmemover"
+        />
       </article>
       <article class="memover_benefits">
         <section>
@@ -101,7 +107,11 @@
             - The best way to improve your balance, stability and coordination.
           </p>
         </section>
-        <img loading=lazy src="assets/womanonmemover.webp" alt="womanonmemover" />
+        <img
+          loading="lazy"
+          src="assets/womanonmemover.webp"
+          alt="womanonmemover"
+        />
       </article>
       <article id="why_memover">
         <section>
@@ -123,7 +133,13 @@
 
         <section>
           <div class="icons_wrapper">
-            <div class="icon"><img loading=lazy src="assets/build_muscle.svg" alt="build_muscle" /></div>
+            <div class="icon">
+              <img
+                loading="lazy"
+                src="assets/build_muscle.svg"
+                alt="build_muscle"
+              />
+            </div>
             <div class="description_wrapper">
               <div class="icon_title">Build muscle</div>
               <div class="icon_description">
@@ -133,7 +149,13 @@
             </div>
           </div>
           <div class="icons_wrapper">
-            <div class="icon"><img loading=lazy src="assets/joints_icon.svg" alt="joints_icon" /></div>
+            <div class="icon">
+              <img
+                loading="lazy"
+                src="assets/joints_icon.svg"
+                alt="joints_icon"
+              />
+            </div>
             <div class="description_wrapper">
               <div class="icon_title">Strengthen the joints</div>
               <div class="icon_description">
@@ -143,7 +165,13 @@
             </div>
           </div>
           <div class="icons_wrapper">
-            <div class="icon"><img loading=lazy src="assets/loseweight_icon.svg" alt ="loseweight_icon"/></div>
+            <div class="icon">
+              <img
+                loading="lazy"
+                src="assets/loseweight_icon.svg"
+                alt="loseweight_icon"
+              />
+            </div>
             <div class="description_wrapper">
               <div class="icon_title">Lose wheight</div>
               <div class="icon_description">
@@ -153,7 +181,13 @@
             </div>
           </div>
           <div class="icons_wrapper">
-            <div class="icon"><img loading=lazy src="assets/balance_icon.svg" alt="balance_icon"/></div>
+            <div class="icon">
+              <img
+                loading="lazy"
+                src="assets/balance_icon.svg"
+                alt="balance_icon"
+              />
+            </div>
             <div class="description_wrapper">
               <div class="icon_title">Improve balance and coordination</div>
               <div class="icon_description">
@@ -167,87 +201,95 @@
 
       <article id="form">
         <section id="form-fill">
-        <h5>Try Me-Mover</h5>
-        <h6>Fill out this form if you want to try a Me-over and we will contact you later.</h6>
-        <form name="Me-Mover-form" method="POST" data-netify="true">
-        <p>
-          <label for="input__text">Name *</label>
-          <input id="input__text" type="text" required placeholder="Enter your first and last name"/>
-        </p>
-        <p>
-          <label for="input__emailaddress">Email Address *</label>
-          <input
-            id="input__emailaddress"
-            type="email" required
-            placeholder="Enter your email (e.g. abcd@efg.com)"
-          />
-        </p>
-        <p>
-          <label for="input__phone">Phone Number</label>
-          <input
-            id="input__phone"
-            type="tel" 
-            placeholder="Enter your phone number (e.g. 42424242)"
-          />
-        </p>
-          <p>
-            <label for="select-hotspot">Hotspot *</label>
-            <select id="select">
-              <optgroup label="Option Group">
-                <option>Copenhagen</option>
-                <option>Aarus</option>
-                <option>Odense</option>
-              </optgroup>
-            </select>
-          </p>
-          <p>
-            <label for="select-number">Number of Me-Movers *</label>
-            <select id="select">
-              <optgroup label="Option Group">
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5</option>
-              </optgroup>
-            </select>
-          </p>
-          <p>
-            <label for="idd">Date *</label>
-            <input type="date" required id="idd" value="2021-01-03" />
-          </p>
-          <p>
-            <label for="idd">Time *</label>
-            <input type="time" required id="idd" value="00:00" />
-          </p>
-          <p>
-          <label for="textarea">ADDITIONAL INFORMATION</label>
-            <textarea
-              id="textarea"
-              rows="8"
-              cols="42"
-              placeholder="Enter to comment additional information on special needs or anything you want to share with us."
-            ></textarea>
-          </p>
-          <div class="inputfeild">
-            <input type="submit" value="submit" class="submit_btn">
-          </div>
-        </form>
-          </section>
-        </article>
-
-
-
+          <h5>Try Me-Mover</h5>
+          <h6>
+            Fill out this form if you want to try a Me-over and we will contact
+            you later.
+          </h6>
+          <form name="Me-Mover-form" method="POST" data-netlify="true">
+            <div id="gaps">
+              <div>
+                <label for="input__text">Name *</label>
+                <input
+                  id="input__text"
+                  type="text"
+                  required
+                  placeholder="Enter your first and last name"
+                />
+              </div>
+              <div>
+                <label for="input__emailaddress">Email Address *</label>
+                <input
+                  id="input__emailaddress"
+                  type="email"
+                  required
+                  placeholder="Enter your email (e.g. abcd@efg.com)"
+                />
+              </div>
+              <div>
+                <label for="input__phone">Phone Number</label>
+                <input
+                  id="input__phone"
+                  type="tel"
+                  placeholder="Enter your phone number (e.g. 42424242)"
+                />
+              </div>
+              <div>
+                <label for="select-hotspot">Hotspot *</label>
+                <select id="select">
+                  <optgroup label="Option Group">
+                    <option>Copenhagen</option>
+                    <option>Aarus</option>
+                    <option>Odense</option>
+                  </optgroup>
+                </select>
+              </div>
+              <div>
+                <label for="select-number">Number of Me-Movers *</label>
+                <select id="select">
+                  <optgroup label="Option Group">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                  </optgroup>
+                </select>
+              </div>
+              <div>
+                <label for="idd">Date *</label>
+                <input type="date" required id="idd" value="2021-01-03" />
+              </div>
+              <div>
+                <label for="idd">Time *</label>
+                <input type="time" required id="idd" value="00:00" />
+              </div>
+              <div>
+                <label for="textarea">ADDITIONAL INFORMATION</label>
+                <textarea
+                  id="textarea"
+                  rows="8"
+                  cols="42"
+                  placeholder="Enter to comment additional information on special needs or anything you want to share with us."
+                ></textarea>
+              </div>
+            </div>
+            <div class="inputfeild">
+              <input type="submit" value="submit" class="submit_btn" />
+            </div>
+          </form>
+        </section>
+      </article>
 
       <article id="shop_bg">
         <section>
-          <a href="https://me-mover.dk/product-category/shop/"
+          <a href="https://me-mover.dk/product-category/shop/" target="_blank"
             ><button id="shop_btn">Shop</button></a
           >
         </section>
       </article>
       <article id="stories">
-        <img loading=lazy src="assets/woman.webp" alt="woman" />
+        <img loading="lazy" src="assets/woman.webp" alt="woman" />
         <section>
           <h3>Success stories</h3>
           <p>
@@ -274,7 +316,13 @@
       <article id="faq">
         <section id="faq_icons">
           <div class="icons_wrapper">
-            <div class="icon"><img loading=lazy src="assets/shipping_icon.svg" alt="shipping_icon"/></div>
+            <div class="icon">
+              <img
+                loading="lazy"
+                src="assets/shipping_icon.svg"
+                alt="shipping_icon"
+              />
+            </div>
             <div class="description_wrapper">
               <div class="icon_title">World wide Shipping</div>
               <div class="icon_description">
@@ -283,7 +331,13 @@
             </div>
           </div>
           <div class="icons_wrapper">
-            <div class="icon"><img loading=lazy src="assets/satisfaction_icon.svg" alt="satisfaction_icon" /></div>
+            <div class="icon">
+              <img
+                loading="lazy"
+                src="assets/satisfaction_icon.svg"
+                alt="satisfaction_icon"
+              />
+            </div>
             <div class="description_wrapper">
               <div class="icon_title">30-Day Satisfaction Guarantee</div>
               <div class="icon_description">
@@ -293,7 +347,13 @@
             </div>
           </div>
           <div class="icons_wrapper">
-            <div class="icon"><img loading=lazy src="assets/asseble_icon.svg" alt="asseble_icon"/></div>
+            <div class="icon">
+              <img
+                loading="lazy"
+                src="assets/asseble_icon.svg"
+                alt="asseble_icon"
+              />
+            </div>
             <div class="description_wrapper">
               <div class="icon_title">EASY TO ASSEMBLE</div>
               <div class="icon_description">
@@ -320,7 +380,9 @@
         <h2>Hear from our costumers</h2>
         <div id="review_wrapper">
           <section class="review">
-            <div class="stars"><img loading=lazy src="assets/4_stars.svg" alt="Rating stars" /></div>
+            <div class="stars">
+              <img loading="lazy" src="assets/4_stars.svg" alt="Rating stars" />
+            </div>
             <div class="review_title">I feel more energetic</div>
             <div class="review_text">
               I started using Me-Mover a few months ago, and I'm more motivated
@@ -329,7 +391,9 @@
             <div class="review_name">ANNA L.</div>
           </section>
           <section class="review">
-            <div class="stars"><img loading=lazy src="assets/5_stars.svg" alt="Rating stars" /></div>
+            <div class="stars">
+              <img loading="lazy" src="assets/5_stars.svg" alt="Rating stars" />
+            </div>
             <div class="review_title">I can finally train outdoors</div>
             <div class="review_text">
               I had a back injury and couldn't run or bike without pain. Walking
@@ -339,7 +403,9 @@
             <div class="review_name">JULIAN S.</div>
           </section>
           <section class="review">
-            <div class="stars"><img loading=lazy src="assets/4_stars.svg" alt="Rating stars" /></div>
+            <div class="stars">
+              <img loading="lazy" src="assets/4_stars.svg" alt="Rating stars" />
+            </div>
             <div class="review_title">
               Never touched the treadmill ever since
             </div>
